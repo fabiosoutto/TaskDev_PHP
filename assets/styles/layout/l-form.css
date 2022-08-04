@@ -1,0 +1,17 @@
+.l-form .form-control {
+  margin-bottom: 1rem;
+}
+
+.l-form .form-area {
+  margin: 0;
+  margin-bottom: 1.2rem;
+}
+
+.l-form .form-area .form-control:last-child {
+  margin-bottom: 0;
+}
+
+
+.l-form .form-legend {
+  margin-bottom: 0.8rem;
+}

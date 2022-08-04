@@ -1,0 +1,22 @@
+.lead {
+  text-align: center;
+}
+
+.lead .lead-title {
+  margin-bottom: 0;
+  letter-spacing: 0.06rem;
+}
+
+.lead .lead-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: var(--color-dark-gray);
+}
+
+.lead .lead-hr {
+  margin-bottom: 30px;
+  border-bottom-width: 0;
+  width: 65%;
+  border-color: var(--color-dark-gray);
+  opacity: 0.2;
+}

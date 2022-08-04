@@ -1,0 +1,38 @@
+.fadeout {
+  animation: fade-out 400ms;
+}
+
+.fadein {
+  animation: fade-out 150ms reverse;
+}
+
+.shake {
+  animation: shake ease-out .2s 2 alternate-reverse;
+}
+
+@keyframes shake {
+    0% {
+      transform: translateX(15px);
+    }
+    25% {
+      transform: translateX(-15px);
+    }
+    50% {
+      transform: translateX(-7px);
+    }
+    75% {
+      transform: translateX(7px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+@keyframes fade-out {
+from {
+    opacity: 1;
+}
+to {
+    opacity: 0;
+}
+}

@@ -1,0 +1,13 @@
+.is-hidden {
+  display: none;
+}
+
+.is-hidden-sr-except {
+  position: absolute;
+  left: -200vw;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+} 

@@ -1,0 +1,25 @@
+.alert {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+
+  text-align: center;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  opacity: 0.96;
+}
+
+.alert-text {
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.alert.alert-error {
+  background-color: var(--color-light-gray);
+  background-image: var(--gradient-light-gray);
+}
+
+.alert.alert-success {
+  background-image: var(--gradient-blue-purple);
+}

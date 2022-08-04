@@ -1,0 +1,13 @@
+
+.icon {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.icon.icon-hover:hover {
+  transform: scale(1.1);
+}

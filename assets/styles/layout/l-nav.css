@@ -1,0 +1,16 @@
+.l-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.l-nav .nav-toggler {
+  font-size: 1.6rem;
+}
+
+.l-nav .menu {
+  position: absolute;
+  margin-top: 2rem;
+  width: 175px;
+}

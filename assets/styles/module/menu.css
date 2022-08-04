@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 1.5rem;
+  border-radius: 0.3rem;
+  background-color: var(--color-light-gray);
+  background-image: var(--gradient-blue-purple-grayed);
+  z-index: 1;
+}
+
+.menu .menu-item {
+  text-align: center;
+}
+
+.menu .menu-item:hover {
+  font-weight: bold;
+}
+
+.menu .menu-link {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.menu.is-hidden {
+  height: 0;
+}
